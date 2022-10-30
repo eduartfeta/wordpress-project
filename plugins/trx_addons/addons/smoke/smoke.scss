@@ -1,0 +1,20 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_trx_addons.vars.scss";
+@import "../../css/_trx_addons.colors.scss";
+
+/* Smoke
+--------------------------------------------------------------- */
+#trx_addons_smoke {
+	@include fixed-cover(-1);
+	pointer-events: none;
+}
+body.trx_addons_smoke_present {
+	.page_content_wrap,
+	&.body_style_boxed .page_wrap {
+		background-color: transparent;
+
+		.elementor-section[class*="scheme_"] {
+			background-color: transparent;
+		}
+	}
+}

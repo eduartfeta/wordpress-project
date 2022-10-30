@@ -1,0 +1,18 @@
+{
+    "default": {
+        "title": "Default",
+        "description": "",
+        "version": "2.0",
+        "category": "business,services",
+        "demo_url": "//qwery.ancorathemes.com"
+    },
+    "phone-repair": {
+        "title": "Phone Repair",
+        "description": "",
+        "version": "1.3",
+        "category": "business,services,online store",
+        "demo_url": "//phone-repair.qwery.ancorathemes.com",
+        "checked": "2021-12-20 13:01:23",
+        "updated": "2021-11-17"
+    }
+}
